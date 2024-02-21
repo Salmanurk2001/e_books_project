@@ -1,4 +1,4 @@
-import 'package:e_books_project/My_Books/Screens/Loading_Books.dart';
+import 'package:GBook_App/My_Books/Screens/Loading_Books.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
@@ -52,7 +52,7 @@ class _NovelState extends State<Novel> {
                       child: Column(
                         children: [
                           Container(
-                            height: 230,
+                            height:180,
                             width: 150,
                             decoration: BoxDecoration(
                               boxShadow: [

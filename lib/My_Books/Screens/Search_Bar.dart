@@ -1,6 +1,6 @@
 
-import 'package:e_books_project/My_Books/Screens/Loading_Books.dart';
-import 'package:e_books_project/My_Books/Screens/Error.dart';
+import 'package:GBook_App/My_Books/Screens/Loading_Books.dart';
+import 'package:GBook_App/My_Books/Screens/Error.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';

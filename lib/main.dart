@@ -1,5 +1,5 @@
 
-import 'package:e_books_project/My_Books/Screens/Spalsh_Screen.dart';
+import 'package:GBook_App/My_Books/Screens/Spalsh_Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
