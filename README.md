@@ -1,4 +1,4 @@
-# E_Books_App
+# GBooks_App
 
 A new Flutter project.
 
