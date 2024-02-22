@@ -1,4 +1,3 @@
-
 import 'package:GBook_App/My_Books/Screens/Loading_Books.dart';
 import 'package:GBook_App/My_Books/Screens/Error.dart';
 import 'package:flutter/material.dart';
@@ -82,10 +81,6 @@ class _SearchFilterState extends State<SearchFilter> {
                     ),
                     Text(
                       "..",
-                      // style: TextStyle(
-                      //     color: Colors.black,
-                      //     fontSize: 10,
-                      //     fontWeight: FontWeight.bold),
                     )
                   ],
                 ),
@@ -134,8 +129,6 @@ class _SearchFilterState extends State<SearchFilter> {
                                 ),
                                 Flexible(
                                   child: Text(
-                                    // you can change it accordingly
-
                                     (widget.d["items"][index + 1]["volumeInfo"]
                                     ["title"])
                                         .length >
@@ -200,7 +193,6 @@ class _SearchFilterState extends State<SearchFilter> {
                                           return Bookloading(c: isbn);
                                         }));
                                   },
-                                  // color: Colors.black,
                                   child: Text(
                                     "DETAILS",
                                     style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),

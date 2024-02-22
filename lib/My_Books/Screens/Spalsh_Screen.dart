@@ -24,21 +24,34 @@ class _SplashScreenState extends State<SplashScreen> {
                       Center(
                         child: Container(
                             child: Image.asset("assets/Images/books image.webp",
-                              scale: 1.4,
+                              scale: 1,
                               fit: BoxFit.fill,
-                            alignment: Alignment.bottomCenter,)),
+                            alignment: Alignment.topCenter,)),
                       ),
                    Column(
                     children: [
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 50.0),
                         child: Text(
-                          "KEEP READING...",
+                          "KEEP READING,",
                           style: GoogleFonts.lato(
                               textStyle: TextStyle(
                                   color: Colors.white,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold)),
+
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 50.0),
+                        child: Text(
+                          "You'll fall in love.",
+                          style: GoogleFonts.lato(
+                              textStyle: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold)),
+
                         ),
                       ),
 
@@ -50,10 +63,11 @@ class _SplashScreenState extends State<SplashScreen> {
                               context,
                               MaterialPageRoute(builder: (context) {
                                 var l = [
-                                  "adventure",
-                                  "fantasy",
-                                  "horror",
-                                  "romance"
+                                  "Novel",
+                                  "Science",
+                                  "Fantasy",
+                                  "Romance",
+                                  "Self-Guide"
                                 ];
                                 return LoadingScreen(l: l);
                               }),
@@ -72,7 +86,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                   "EXPLORE",
                                   style: GoogleFonts.lato(
                                       textStyle: TextStyle(
-                                          fontSize: 20,
+                                          fontSize: 25,
                                           color: Colors.black,
                                           fontWeight: FontWeight.w900)),
                                 ),

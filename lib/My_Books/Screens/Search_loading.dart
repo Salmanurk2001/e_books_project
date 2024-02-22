@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:GBook_App/My_Books/Screens/Search_Bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:http/http.dart';
 
@@ -40,7 +39,6 @@ class _SearchLoadingState extends State<SearchLoading> {
   Widget build(BuildContext context) {
     return (const Scaffold(
       body: Center(
-        // ignore: prefer_const_constructors
         child: CircularProgressIndicator(
           color: Colors.black,
         ),

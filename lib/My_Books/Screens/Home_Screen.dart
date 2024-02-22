@@ -8,8 +8,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   var c1;
@@ -118,9 +116,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black),
                           ),
                         ),
-                        // SizedBox(
-                        //   height: 30,
-                        // ),
                       ],
                     ),
                   ),
